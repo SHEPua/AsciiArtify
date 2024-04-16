@@ -1,0 +1,24 @@
+# demo
+HW 4
+
+##
+
+## Огляд інструментів
+### minikube
+Це локальна система Kubernetes, яка дозволяє розгортати кластер Kubernetes на одному комп'ютері. Minikube є зручним варіантом для розробки та тестування на локальному комп'ютері. 
+
+### kind (Kubernetes IN Docker)
+Це інструмент, який дозволяє створювати локальні Kubernetes кластери в Docker контейнерах.
+
+### k3d
+Це інструмент для створення локальних Kubernetes кластерів в Docker контейнерах з використанням Rancher Kubernetes Engine (RKE). K3d дозволяє швидко створювати та тестувати кластери Kubernetes у Docker-контейнерах.
+
+### Характеристики
+
+| **Відмінності**                               | **Minikube**                                     | **Kind**                                         | **k3d**                                          | **Podman**                                       |
+|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| **Плюси**                                      | + Easy to use<br>+ Suitable for local development and testing | + Suitable for local development and testing<br>+ Works within Docker containers<br>+ Possibility for local testing | + Suitable for local development and testing<br>+ Works within Docker containers<br>+ Fast cluster creation and testing | + Easy to use<br>+ Suitable for local development and testing<br>+ Works within Docker containers<br>+ Light alternative to Docker |
+| **Мінуси**                                      | - Doubts about scalability<br>- Potential limitations | - Limited information on scalability<br>- Limited community documentation | - Limited documentation<br>- Potential scalability concerns | - Limited information on scalability<br>- Limited community documentation |
+
+| **Плюси**                                     | + Простий у використанні<br>+ Підходить для локальної розробки та тестування | + Підходить для локальної розробки та тестування<br>+ Працює в контейнерах Docker<br>+ Можливість локального тестування | + Підходить для локальної розробки та тестування<br>+ Працює в контейнерах Docker<br>+ Швидке створення та тестування кластерів | + Простий у використанні<br>+ Підходить для локальної розробки та тестування<br>+ Працює в контейнерах Docker<br>+ Легка альтернатива Docker |
+| **Мінуси**                                    | - Сумніви щодо масштабованості<br>- Потенційні обмеження | - Обмежена інформація про масштабованість<br>- Обмежена документація спільноти | - Обмежена документація<br>- Потенційні проблеми масштабованості | - Обмежена інформація про масштабованість<br>- Обмежена документація спільноти |
